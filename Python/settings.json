@@ -1,0 +1,55 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "RpcEnabled": true,
+  "SimMode": "Multirotor",
+  "Vehicles": {
+    "Drone2": {
+      "VehicleType": "SimpleFlight",
+      "X": 30,
+      "Y": 25,
+      "Z": -2,
+      "Yaw": 90,
+      "AllowAPIAlways": true,
+      "CameraDefaults": {
+        "CaptureSettings": [
+          {
+            "ImageType": 3
+          }
+        ]
+      }
+    },
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "X": 150,
+      "Y": 25,
+      "Z": -2,
+      "Yaw": 90,
+      "AllowAPIAlways": true,
+      "CameraDefaults": {
+        "CaptureSettings": [
+          {
+            "ImageType": 3
+          }
+        ]
+      }
+    },
+    "Drone3": {
+      "VehicleType": "SimpleFlight",
+      "X": -100,
+      "Y": 25,
+      "Z": -2,
+      "Yaw": 90,
+      "AllowAPIAlways": true,
+      "CameraDefaults": {
+
+        "CaptureSettings": [
+          {
+            "ImageType": 3
+          }
+        ]
+      }
+    }
+  }
+}
+   
